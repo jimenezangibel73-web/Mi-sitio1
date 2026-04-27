@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #be4573;
 }
 
 /* Encabezado */
 header {
-    background-color: #007BFF;
+    background-color: #cc4498;
     color: white;
     padding: 20px;
     text-align: center;
@@ -17,11 +17,27 @@ header {
 /* SecciÃ³n de contenido */
 .contenido {
     padding: 20px;
-    background-color: springgreen;
+    background-color: rgb(163, 145, 42);
     margin: 20px;
     border-radius: 10px;
 }
-
+/*imagenes*/
+.presentacion img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    
+}
+/*imagenes*/
+.presentacion img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
 /* Estilos para listas */
 ul {
     list-style-type: square;
